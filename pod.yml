@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: maneesh22
+  
+spec:
+  containers:
+    - name: maneeshcontainer
+      image: nginx
+      ports:
+        - containerPort: 80
